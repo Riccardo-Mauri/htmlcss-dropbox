@@ -1,0 +1,134 @@
+/*
+RESET
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans';
+}
+.header-top-sx > ul > li a{
+    text-decoration: none;
+}
+
+.header-top-sx > ul{
+    list-style-type: none;
+}
+.header-top-dx > ul > li a{
+    text-decoration: none;
+}
+.header-top-dx > ul{
+    list-style-type: none;
+}
+
+/*
+HEADER
+*/
+header{
+    width: 100%;
+    min-height: 100px;
+    background-color: black ;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top-sx{
+    width: calc(100% / 2);
+    min-height: 50px;
+    background-color: red;
+    border: 2px dashed green;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    
+}
+.header-link-sx{
+    display: flex;
+    flex-direction: row;
+}
+.listed-link-sx{
+    padding-left: 40px;
+    
+}
+.header-top-dx{
+    width: calc(100% / 2);
+    min-height: 50px;
+    background-color: red;
+    border: 2px dashed green;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+.header-link-dx{
+    display: flex;
+    flex-direction: row;
+}
+.listed-link-dx{
+    padding-right: 40px;
+}
+#link-style{
+    color: black;
+}
+.dx-button-container{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+
+}
+.button-style{
+    font-family: 'Open Sans';
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    color: black;
+    width: calc(100% / 2);
+    padding:5px 5px;
+}
+.header-button-dx{
+    background-color: #0061FF;
+    color: white;
+}
+
+/*
+HEADER BOTTOM
+*/
+.section-header-bottom{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: yellow;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    padding-top: 50px ;
+    padding-bottom: 50px;
+    font-size: 4.2em;
+    font-weight: 1000;
+    
+}
+.main-dscpt{
+    width:30%;
+    height: 500px;
+}
+.img-container{
+    width: 70%;
+    background-color: antiquewhite;
+    height: 500px;
+    
+}
+.button-prova-grt{
+    font-size: 1em;
+    font-family: 'Open Sans';
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px 20px 10px;
+    background-color:#0061FF ;
+    color: white;
+}
